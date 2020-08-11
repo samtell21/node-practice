@@ -50,7 +50,7 @@ app.use('/', rootRouter);
 //Throw error for bad paths
 app.use((req, res, next) => {
     next(require('./api/functions/generr')(
-        "Bad path, dummy...",
+        "Bad path, dummy",
         404
     ));
 });
