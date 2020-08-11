@@ -12,7 +12,8 @@ router.delete('/', (q,s,n) => {
         array: [
             "how do you feel?",
             "a little cold?",
-            "a little afraid?"
+            "a little afraid?",
+            "very strange"
         ]
     });
 });
