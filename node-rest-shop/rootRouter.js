@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (q,s,n) => {
-    s.status(200).json("Hey, welcome to my api");
+    s.status(200).json("Hi Christine!");
 });
 
 router.get('/teapot', (q,s,n) => {
